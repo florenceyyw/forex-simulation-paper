@@ -25,6 +25,10 @@ venv/
 *.zip
 *.sqlite3
 
+# Allow all CSV files inside /data
+!data/
+!data/*.csv
+
 # Build / distribution
 build/
 dist/
